@@ -1,0 +1,365 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body {
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+.header {
+    margin: 1rem ;
+    color: white;
+    padding: 0 10px;
+    text-align: left; /* Align content to the left */
+}
+.header img {
+    vertical-align: middle;
+    height: 3rem;
+    padding: 10px;
+    margin-right: 10rem; /* Optional: Add spacing between image and text */
+}
+
+.nav {
+    display: inline;
+
+    background-color: #0071D1;
+    border-radius: 50px;
+    padding: 15px;
+    margin-left: 18rem;
+    text-align: right;
+}
+.nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+
+/* trainer info */
+.training-info {
+    background-color: white;
+    padding: 20px 0;
+}
+
+.trainingpython {
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 30px;
+    
+}
+span {
+    color: #0071D1;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 20px;
+    font-family: poppins;
+    
+}
+
+.tabs ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.tabs ul li {
+    margin: 0 10px;
+    padding: 20px 50px 0;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.tab-content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+.container {
+    /* max-width: 1000px; */
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.section-title {
+    background-image: url(../public/images/Frame\ 1597880406.png) ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 25rem;
+    text-align: center;
+    color: #fbfbfb;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+
+}
+.section-title.odd {
+    background-image: url(../public/images/Frame\ 1597880406.png) ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin-left:54rem ;
+    
+    width: 25rem;
+    color: #fbfbfb;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+.register-btn {
+    background-color: #0057FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+}
+.register-btn:hover {
+    background-color: #0041cc;
+}
+.about-trainer {
+    display: block;
+    align-items: center;
+    margin: 2rem 0 5rem 1rem;
+    
+    width: 30rem;
+    height: 20rem;
+}
+.trainer-photo {
+    position: absolute;
+    margin-top: -1rem;
+    margin-left: 13rem;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.trainer-bg {
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 30rem;
+    height: 20rem;
+    margin-right: 20px;
+}
+.trainer-details {
+    position: absolute;
+    
+    margin-left: 2rem;
+    color: white;
+    width: 27rem;
+    
+    max-width: 600px;
+}
+.trainer-details h3 {
+    margin: 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+.rating {
+    position: absolute;
+    color: black;
+    width: 20rem;
+    margin-top: -18rem;
+    margin-left: 45rem;
+}
+.review-head {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.rating span {
+    font-size: 50px;
+    color: #f5a623;
+}
+.highlights,
+.what-you-get {
+    margin: 20px 0 20px 30px;
+}
+.certificate{
+    
+    width: 200px;
+    height: 400px;
+}
+.certificate-img {
+    margin: 0 20rem;
+    width: 400px;
+    height: 400px;
+}
+.highlights ul,
+.what-you-get ul {
+    list-style: none;
+    padding: 0;
+}
+.highlights ul li,
+.what-you-get ul li {
+    margin: 10px 0;
+    position: relative;
+    padding-left: 25px;
+}
+.highlights ul li::before,
+.what-you-get ul li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #0057FF;
+}
+
+
+
+
+.faq-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+.faq-question {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question i {
+    font-size: 18px;
+    transition: transform 0.3s;
+}
+
+.faq-question.active i {
+    transform: rotate(180deg);
+}
+
+.faq-answer {
+    display: none;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+footer {
+    position: relative;
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 0 0 20rem;
+    flex-wrap: wrap;
+    
+}
+footer .address {
+    position: absolute;
+    margin-top: 6rem;
+    margin-left: -18rem;
+    width: 250px;
+    font-weight: 500;
+}
+footer .footer-logo {
+    position: absolute;
+    width: 250px;
+    margin-left: -18rem;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 0 10px 0px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #666;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #333;
+}
+
+.footer-column .social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-column .social-icons li {
+    margin-bottom: 0;
+}
+
+.footer-column .social-icons a {
+    color: #666;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.footer-column .social-icons a:hover {
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-column {
+        min-width: 100%;
+        text-align: center;
+    }
+}
