@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trainingstyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Java Full Stack</title>
+</head>
+<body>
+    <div class="header">
+        <img src="../public/images/Gohackathon logo.png" alt="Go Hackathon Logo">
+        <div class="nav">
+            <a href=""><i class='bx bxs-home'></i></a>
+            <a href="#">About Us</a>
+            <a href="#">Training</a>
+            <a href="#">Services</a>
+            <a href="#">Career</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </div>
+    
+    
+    <div class="container">
+        <section class="training-info">
+            <div class="trainingpython"><i class='bx bxs-chevron-left'><img src="../public/images/avatar.png" style="width: 60px;height: 60px;"><span>Java Full Stack</span></i></div>
+            <div class="tabs">
+                <ul>
+                    <li class="active" data-tab="about-trainer">About Trainer</li>
+                    <li data-tab="training-highlights">Training Highlights</li>
+                    <li data-tab="what-you-get">What you'll get</li>
+                    <li data-tab="training-certification">Training Certificate</li>
+                    <li data-tab="faqs">FAQs</li>
+                </ul>
+            </div>
+        </section>
+
+        <h2 class="section-title">Training Schedule</h2>
+        <p><strong>Topic:</strong> Java Full Stack</p>
+        <p><strong>Date:</strong> Wednesday, April 24, 2024</p>
+        <p><strong>Time:</strong> 1:00 PM - 2:30 PM EST</p>
+        <button class="register-btn">Register Now</button>
+
+        <h2 class="section-title odd">About Trainer</h2>
+        <div class="about-trainer">
+            <img src="../public/images/trainer bg blue.svg" alt="" class="trainer-bg">
+            <img src="../public/images/trainer image.png" alt="Trainer Photo" class="trainer-photo" width="100">
+            <div class="trainer-details">
+                <h3>Harsha Varma</h3>
+                <p>Designation: Academic Counseling Expert Description: Shantnu Rana is an Academic Counseling Expert at Great Learning who has guided thousands of students in planning and choosing their professional careers.</p>
+                <p >Experience: 10+ years</p>
+                <div class="rating">
+                    <p class="review-head">Rating & Reviews</p>
+                    <span>★★★★☆</span> <p class="review-head" style="display: inline; font-weight: 100;">4.5</p>
+                    <p  style="border: 1px solid blue;width: 150px;height: 30px; margin-left: 50px;justify-content: center;text-align: center;"><i class="fa-regular fa-pen-to-square"></i>Write a review</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title">Training Highlights</h2>
+        <div class="highlights">
+            <ul>
+                <li>Introduction and welcome</li>
+                <li>Overview of the job market and current trends</li>
+                <li>Resume tips and tricks</li>
+                <li>Interview strategies and best practices</li>
+                <li>Q&A session</li>
+            </ul>
+        </div>
+
+        <h2 class="section-title odd">What You'll Get</h2>
+        <div class="what-you-get">
+            <ul>
+                <li>Learn from experts and gain insights</li>
+                <li>Cost-effective and flexible option for busy professionals</li>
+                <li>Offers networking opportunities and access to resources</li>
+                <li>Helps you stay up-to-date on the latest trends and best practices</li>
+                <li>Convenient and accessible way to learn new skills and gain knowledge</li>
+            </ul>
+        </div>
+
+        <h2 class="section-title">Training Certification</h2>
+        <div class="certificate">
+            <img src="../public/images/hackathon certificate.svg" alt="Certificate Image" class="certificate-img">
+        </div>
+
+        <h2 class="register-btn" style="background-color: #0071D1; width: 100px; border-radius: 50px;">FAQs</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(0)">
+                    Why should I take this course?
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Fill out the registration form on our website.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(1)">
+                    Is this course provided by GoHackathon Online?
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Prerequisites vary depending on the workshop. Please check the workshop details for specific requirements.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(2)">
+                    How do I know more about the course?
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Refund policies vary depending on the workshop.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(3)">
+                    How do I know more about the course?
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Cancellations made [Number] days prior to the workshop will receive a full refund.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(4)">
+                    I could not find a course on this site, what should I do?
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, participants who successfully complete a workshop will receive a certificate of completion.</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-container">
+                <img src="../public/images/Gohackathon logo.png" alt="" class="footer-logo">
+                <p class="address"> India Office:
+                    <i class="fa-sharp fa-solid fa-location-dot"></i> H-87, Sector-63, Noida, UP, 201301</p>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Building Tech Professionals</a></li>
+                        <li><a href="#">Startup Tech Assistance</a></li>
+                        <li><a href="#">Hackathon Development</a></li>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Research & Development</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class='bx bxs-phone'> +91 7042630789</i></li>
+                        <li><i class='bx bx-envelope'>info@gohackathon.in</i></li>
+                        <li><i class='bx bx-envelope'>hr@gohackathon.in</i></li>
+                       
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    <script src="trainingscript.js"></script>
+</body>
+</html>
